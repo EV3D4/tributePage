@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+div.cardBox {
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  width: 1000px;
+}
+
+div.cardImage {
+  background-image: url("http://media.gettyimages.com/photos/tagore-rabindranath-0705186107081941schriftsteller-philosoph-musiker-picture-id541082339");
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  height: 600px;
+  width: 600px;
+  overflow: hidden;
+}
+
+div.cardData {
+  width: 400px;
+  height: 600px;
+  margin-left: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.name {
+  margin: auto, 0;
+  padding-bottom: 7%;
+  color: black;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+div.life {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  font-size: 15px;
+  text-align: left;
+  text-align: center;
+  color: black;
+}
+
+div.cint {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 250px;
+  font-size: 16px;
+  text-align: left;
+  text-align: center;
+  color: black;
+}
+
+div.ctext {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  width: 300px;
+  font-size: 18px;
+  text-align: left;
+}
+
+div.cbox {
+  margin: 10% 5% 0% 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.buttonBox {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 125px;
+}
