@@ -52,7 +52,7 @@ div.name {
 div.life {
   margin-left: auto;
   margin-right: auto;
-  width: 15vw;
+  width: 20vw;
   font-size: 1vw;
   text-align: left;
   text-align: center;
@@ -63,7 +63,7 @@ div.cint {
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
-  width: 15vw;
+  width: 20vw;
   font-size: 1vw;
   text-align: left;
   text-align: center;
